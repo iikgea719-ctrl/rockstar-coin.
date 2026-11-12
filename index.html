@@ -43,6 +43,32 @@ header {
     font-weight: bold;
     letter-spacing: 3px;
 }
+    
+.banner-header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 25px 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
 
 nav a {
     color: white;
@@ -112,14 +138,17 @@ footer {
 
 <body>
 
-<header>
-    <div class="logo">ROCKSTAR</div>
-    <nav>
-        <a href="#story">STORY</a>
-        <a href="#token">TOKEN</a>
-        <a href="#community">COMMUNITY</a>
-    </nav>
+
+<header class="banner-header">
+    <img src="banner.jpg" alt="RockStar Banner">
 </header>
+
+<nav class="menu">
+    <a href="#story">STORY</a>
+    <a href="#token">TOKEN</a>
+    <a href="#community">COMMUNITY</a>
+</nav>
+
 
 <div class="line"></div>
 
