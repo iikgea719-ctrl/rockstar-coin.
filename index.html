@@ -99,6 +99,22 @@ nav a {
     text-shadow: 0 0 25px rgba(255,255,255,0.15);
 }
     
+.hero h1 {
+    animation: rockstarReveal 1.5s ease-out;
+}
+
+@keyframes rockstarReveal {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+    
 .hero-label {
     font-size: 12px;
     letter-spacing: 6px;
